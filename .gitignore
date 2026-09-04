@@ -1,0 +1,38 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+.env
+
+# Supabase CLI temp files
+supabase/.temp/
+
+# Local docs - не пушить на GitHub
+PROJECT_CONTEXT.md
+Run.txt
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+*.tsbuildinfo
+coverage/
+.env.*.local
+
+# Agent/system instructions - local only, not for GitHub
+AGENTS.md
